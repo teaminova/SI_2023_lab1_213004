@@ -1,0 +1,46 @@
+1. https://github.com/teaminova
+3. https://github.com/teaminova/SI_2023_lab1_213004.git
+4. mkdir SI_2023_lab1_213004
+cd SI_2023_lab1_213004
+git init (иницијализација на git во директориумот)
+5. git remote add origin https://github.com/teaminova/SI_2023_lab1_213004.git
+(поврзување на локалниот со оддалечениот репозиториум)
+6. notepad README.md
+git add . (новите датотеки се во фазата staged)
+git commit -m "Initial commit" (нов комит со дадена порака)
+7. notepad SILab1.java
+git add .
+git commit -m "Add java class"
+8. git push -u origin master (синхронизирање со оддалечениот репозиториум)
+9. git branch bug1 (креирање нова гранка)
+git branch bug2
+git branch bug3
+10. git checkout bug1 (префрлање на дадена гранка)
+11. git add .
+git commit -m "Fix wrong loop for reading"
+12. git checkout bug2
+13. git add .
+git commit -m "Fix wrong condition in filterOddNumbers"
+14. git checkout bug3
+15. git add .
+git commit -m "Fix method sumEvenNumbers"
+16. git push origin bug3
+git checkout bug1
+git push origin bug1
+git checkout bug2
+git push origin bug2
+17. git checkout master
+18. git merge bug1 (спојување на гранки)
+При ова спојување не се случија конфликти и е искористена стратегијата Fast-forward. 
+19. git push origin --all
+20. git merge bug2
+При ова спојување не се случија конфликти и е искористена рекурзивната стратегија.
+21. git push origin --all
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3
+При ова спојување не се случија конфликти и е искористена стратегијата Fast-forward.
+26. git push origin --all
+git checkout bug3
+git push origin bug3 --force

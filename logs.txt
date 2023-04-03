@@ -1,0 +1,36 @@
+commit 181ed1e73907879b900a12dc531fc854b99085bf (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:31:43 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit b68a02570019e7798bbd0274c3fe760406443fa7
+Merge: a27012a 24d81c7
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:47:35 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 24d81c7fd4ef18f3a234c134f8307b6e8baee063 (origin/bug2, bug2)
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:28:50 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit a27012aec4f4e82127a3ff81c466defb8ba27dac (origin/bug1, bug1)
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:25:01 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 6023fc2b63b551e94a9008ee5a9f3d6f53fed123
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:14:17 2023 +0200
+
+    Add java class
+
+commit 5fd8c8e96de60f8b95281e5ce896a95c8355f208
+Author: Tea Minova <tea.minova11@gmail.com>
+Date:   Mon Apr 3 10:08:17 2023 +0200
+
+    Initial commit
